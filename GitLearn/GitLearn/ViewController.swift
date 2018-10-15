@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var userName: String?
+    var userId: String?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func saveUserInfo() {
+        //Rest of the code goes here
     }
 
 
